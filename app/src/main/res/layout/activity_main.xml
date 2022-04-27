@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Tinggi"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/Tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Masukkan Tinggi"
+        android:inputType="number"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Panjang Jari-Jari"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/Jarijari"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Masukkan Jari-jari"
+        android:inputType="number"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Jari-Jari Selimut"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/Jariselimut"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Masukkan Jari-Jari Selimut"
+        android:inputType="number"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:text="VOLUME"
+        android:onClick="onClick"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnSelimut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:text="LUAS SELIMUT"
+        android:onClick="onClick"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="VOLUME KERUCUT"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/hvolume"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="0"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="LUAS SELIMUT"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/hselimut"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="0"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textStyle="bold"/>
+
+</LinearLayout>
